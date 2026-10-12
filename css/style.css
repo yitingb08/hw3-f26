@@ -116,6 +116,7 @@ background-repeat: no-repeat;
 }
 
   /* Step 10: Write the selector/rule property to style the nav element */
+@media screen and (min-width: 825px) {
 nav {
   text-align: right;   
   padding: 35px 0;
@@ -144,8 +145,6 @@ nav {
 
 
  /* Step 16:Write the selector/rule property to update the .text-block class */
-
- @media screen and (min-width: 825px) {
 .text-block {
     max-height: 235px;     
     overflow-y: auto;   
