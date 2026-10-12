@@ -97,16 +97,15 @@ background-repeat: no-repeat;
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
 .text-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: grid;
+  align-content: center;   
+  text-align: center;     
 }
+
 .text-block ul,
 .text-block ol {
-  text-align: left;
-  align-self: flex-start;
+  text-align: left;        
+  justify-self: start;     
 }
 
 /* Add your media query here */
@@ -118,11 +117,9 @@ background-repeat: no-repeat;
 
   /* Step 10: Write the selector/rule property to style the nav element */
 nav {
-    display: flex;
-    justify-content: flex-end; 
-    padding: 35px 0;
-  }
- 
+  text-align: right;   
+  padding: 35px 0;
+}
   /* Step 11: Write the selector/rule property to update the .container class */
 .container {
     display: grid;
